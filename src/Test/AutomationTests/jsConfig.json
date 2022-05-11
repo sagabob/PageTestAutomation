@@ -1,0 +1,36 @@
+{
+  "exclude": [
+    "**/bin",
+    "**/bower_components",
+    "**/jspm_packages",
+    "**/node_modules",
+    "**/obj",
+    "**/platforms"
+  ],
+  
+  "AppConfiguration": {
+    "testData": {
+      "baseUrl": "https://housing.id.com.au"
+    },
+    "testConfig": {
+      "expectedFindElementTime": 3,
+      "expectedPageLoadingTime": 3,
+      "pageNotFoundMessage": "404 error"
+    }
+  },
+
+  "Serilog": {
+    "MinimumLevel": "Debug",
+    "WriteTo": [
+      {
+        "Name": "File",
+        "Args": {
+          "path": "D:/temp/log/automationTest.log",
+          "rollingInterval": "Day",
+          "retainedFileCountLimit": 7
+        }
+      }
+    ]
+  }
+
+}

@@ -1,0 +1,13 @@
+{
+  "HousingPageModel": {
+    "MainMenuModel": {
+      "menuParentDivClassName": "col-md-3",
+      "menuClassName": "sidebar",
+      "menuItemBtnClassName": "Collapsible__trigger",
+      "menuItemHomeClassName": "home__link",
+      "menuItemCollapsibleDivClassName": "collapse",
+      "menuItemCollapsibleUlClassName": "Collapsible__sublink__list",
+      "menuItemCollapsibleLiClassName": "Collapsible__sublink__list__item"
+    } 
+  } 
+}
